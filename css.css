@@ -6,6 +6,9 @@ header{
     margin: 10px;
     
 }
+.active{
+    border-bottom: solid thick purple;
+}
 a{
     text-decoration: none;
     margin: 10px;
@@ -14,8 +17,22 @@ main{
    
     display: flex;
     
-    justify-content: space-between;
-    margin: 150px;
+    justify-content: space-around;
+    margin-top: 90px;
+
+    
+}
+#change{
+    
+    margin-right: 40px;
+}
+#adi{
+    margin-left: 40px;
+}
+#adi h1{
+    background-image: linear-gradient(to right,purple,rgb(238, 162, 174));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 button{
     background-color: rgb(240,200,115);
@@ -35,24 +52,30 @@ button{
     align-items: center;
 }
 #gt{
-    background-color: black;
+    background-color:rgb(77, 9, 77);
     border: solid;
     color: white;
-    width: 80pt;
-    height: 30pt;
-
+    width: 120pt;
+    height: 40pt;
+    border-radius: 10px;
+}
+#gt a{
+    color: white;
 }
 #show{
     border: 5px;
 }
+
 #br{ 
-    background-image: linear-gradient(to right, blue 10%,rgba(128, 0, 128, 0.137) );
-    height: 5px;
-    width: 700px;
+    margin-left: 100px;
+
+    color: rgb(92, 12, 92);
 }
 
 footer{
     padding-left: 600px;
+    margin-top: 40px;
+
 }
 #d{
     height: 100px;
@@ -73,19 +96,29 @@ footer{
     margin: 30px 90px;
 
 }
+#deep{
+    height: 3px;
+    width:1050px;
+    background-image: linear-gradient(to right,blue ,purple,rgba(255, 192, 203, 0));    
+}
 #shivi{
     display:flex;
     align-items:center;
-    justify-content: space-around;
-    margin:110px 150px;
+    justify-content:space-evenly;
+    margin-top: 90px;
+    margin-left: 70px;
 
 }
 .palak{
-    border: solid thick black;
+    border: solid thick rgb(100, 15, 100);
     width: 200px;
     height: 200px;
     text-align: center;
     padding-top: 50px;
+    color: black;
+}
+.palak:hover{
+    transform: scale(1.2);
 }
 #map{
     display: flex;
