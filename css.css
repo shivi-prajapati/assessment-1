@@ -85,16 +85,21 @@ footer{
     background-color: antiquewhite;
     padding: 50px;
 }
-#ijn{
+.ijn {
     width: 150px;
     background-color: white;
-    text-align: center;
-    padding-top: 80px;
-    box-shadow: 10px 10px 20px 10px;
-    height: 100px;
+    height: 120px;
+    padding-top: 50px;
+    box-shadow: 10px 10px 20px 1px;
+    
     border-bottom:solid thick red;
-    margin: 30px 90px;
+    padding: 40px 10px;
+    font-size: 10pt;
+    
 
+}
+.ijn img{ 
+    transform: translate(40px);
 }
 #deep{
     height: 3px;
@@ -128,5 +133,31 @@ footer{
 #head{
     display: flex;
     justify-content:center ;
+}
+#dheeraj{
+    height: 300px;
+    padding-top: 50px;
+    margin-left: 90px;
+}
+#red{
+    width: 500px;
+    height: 5px;
+    background-image: linear-gradient(to right,red,rgba(128, 128, 128, 0));
+    
+}
+#purple{
+    width: 500px;
+    height: 5px;
+    background-image: linear-gradient(to right,purple,rgba(128, 128, 128, 0));
+}
+#orange{
+    width: 500px;
+    height: 5px;
+    background-image: linear-gradient(to right,orange,rgba(128, 128, 128, 0));
+}
+#green{
+    width: 500px;
+    height: 5px;
+    background-image: linear-gradient(to right,rgb(7, 66, 7),rgba(128, 128, 128, 0));
 }
 
